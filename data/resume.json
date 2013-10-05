@@ -1,0 +1,158 @@
+{
+    "header" : {
+        "firstName" : "Marc",
+        "lastName"  : "Breslow",
+        "postal" : {
+            "street" : "310 Scotch Plains Ave",
+            "city"   : "Westfield",
+            "state"  : "NJ",
+            "zipcode" : "07090"
+        },
+        "phone" : "908.376.6554",
+        "email" : "webresume@mbreslow.net",
+        "links" : [
+            {"rel" : "github", "href" : "http://github.com/mbreslow"},
+            {"rel" : "linkedin", "href" : "http://www.linkedin.com/in/mbreslow"}
+        ]
+    },
+    "summary" : "Accomplished and driven Solutions Architect and Technology Leader with a passion for Software Engineering and Product Design.  Extensive hands on expertise with Java, JEE6, Spring, JavaScript, jQuery, HTML and CSS.  Deep technical architecture skills, Object Oriented Analysis and Design and Relational Database skills on Oracle and PostgreSQL.  Solid track record delivering high-performance solutions leveraging Agile Methods and cross-functional teams.  Strong communication and client relationship management skills.  Unique hands-on infrastructure experience from building and operating a consumer web site serving over a million visitors each month.",
+    "experience" : [
+        {
+            "employer" : "Independent Consultant",
+            "city" : "New York",
+            "state" : "NY",
+            "startDate" : "Jun-2013",
+            "endDate" : "Oct-2013",
+            "role" : "Solutions Architect – Federal Reserve Bank of New York",
+            "summary" : "Senior member of an internal consulting group that provided Solutions Architecture services to the business and IT teams.",
+            "achievements" : [
+                "Designed the solution for combining 14 independent applications onto one consolidated platform leveraging ESB, MQ, CMS, BPM and ETL technologies.",
+                "Synthesized a data technology roadmap for the Financial Supervisory Group that will enable them to increase value from data collections.",
+                "Collaborated on reference architectures that reduced expense and risk from several key projects.",
+                "As a Java SME, assisted development teams in coding Kerberos authentication and scalable XML parsing.",
+                "Created a developer guide and a reference application illustrating best-practices for creating RESTful APIs and implementing them using Spring MVC, Spring Data, Spring HATEOS and Swagger."
+            ],
+            "stack" : "WebSphere, Spring MVC, Spring Integration, Spring Batch, Spring Data, Hibernate, Oracle, IBM MQ"
+        },
+        {
+            "employer" : "Provenir",
+            "city" : "Parsippany",
+            "state" : "NJ",
+            "startDate" : "2012",
+            "endDate" : "2013",
+            "role" : "Development Manager – Provenir Loan Originations",
+            "summary" : "Lead the development of a highly configurable and extensible front-office originations system for top-tier global banks.   Partnered with Product Management to establish the roadmap of enhancements to build.",
+            "achievements" : [
+                "Implemented agile software development with an onshore/offshore team to deliver continuous improvements in two-week sprints.",
+                "Delivered three winning POC implementations using SOA and JEE6 technologies.",
+                "Represented the engineering organization during the sales cycle explaining the technology to business executives and technical architects as well as helping with RFP responses and customized product demos.",
+                "Built a development workflow using JIRA, Jenkins, Git, and Github adding transparency, code-reviews and quality controls to the organization.",
+                "Oversaw the development of QA automation using Selenium, TestNG and JMeter.",
+                "Reduced maintenance costs by developing annotations-based code generators for boilerplate JPA and JAXB code.",
+                "Created an XML/JMS API providing a channel for a large library of EJB calls to be made from the SOA platform."
+            ],
+            "stack" : "TomEE, EJB3.1, JPA, JAXB, jQuery, Oracle, Liquibase, Git, Github"
+        },
+        {
+            "employer" : "Citigroup",
+            "city" : "Jersey City",
+            "state" : "NJ",
+            "startDate" : "2009",
+            "endDate" : "2012",
+            "role" : "Solutions Architect – Enterprise Portal",
+            "summary" : "Defined the portal architecture and facilitated its development.  Worked closely with over 20 teams across the bank to tailor integration solutions to their unique architectures.",
+            "achievements" : [
+                "Built from scratch the reverse-proxy Java Servlet Application that delivered authentication, authorization and other core portal services.  Load tested to handle 3,000 requests per second per node.",
+                "Created a federated architecture that economically scales to support thousands of applications being delivered through a common user interface.",
+                "Guided the development of the entitlements-driven navigation pane using jQuery, JSON-RPC, CSS and table-less layout.",
+                "Responsible for SiteMinder, SAML and Kerberos authentication and over a dozen portal integrations.",
+                "Worked with the sector and domain architects to ensure compliance with existing Citi standards and where appropriate, worked with those teams to evolve the Citi standards to accommodate project requirements.",
+                "Incorporated Liferay 6.0 into the Enterprise Portal.",
+                "Collaborated with the Support and Infrastructure Managers to establish robust problem identification, management and resolution including quality assurance processes."
+            ],
+            "stack" : "Weblogic 10.3,Spring, JDBC Template, Oracle, Quest SSO4j, SiteMinder, jQuery"
+        },
+        {
+            "employer" : "RadiusIM.com",
+            "city" : "New York",
+            "state" : "NY",
+            "startDate" : "2006",
+            "endDate" : "2009",
+            "role" : "Head of Technology",
+            "summary" : "Directed all aspects of software development and data center operations for 6-person internet startup where more than 1M unique monthly visitors exchanged over 100M IMs per month. Built the full-featured web application that allowed users to instantly meet new people, as well as IM friends on all major networks including Microsoft (MSN), AOL (AIM), Yahoo, Google Talk, and Facebook.",
+            "achievements" : [
+                "Architected the fault-tolerant software and hardware platform scaled to serve over 4M registered users and 6500 concurrent users worldwide on a hardware investment of only $80K (Java/Erlang/C/Linux).",
+                "Developed from scratch an NIO multi-threaded interface from Java to ejabberd.",
+                "Raised $1.2M in funding used to grow the site 13x from 80K to 1.2M monthly uniques.",
+                "Maximized value on capital investments by negotiating aggressive contracts for co-location, content delivery (CDN), distributed performance monitoring and server hardware.",
+                "Achieved over 99.9% uptime each year for 3 years utilizing BSD Firewalls, HAProxy Load Balancers, PostgreSQL Databases, Memcached, Akamai CDN, Ejabberd Servers, Lighttpd Servers, Jetty Servers, Postfix Mail Servers, ActiveMQ JMS Servers, Google Protobuf and Amazon S3 Cloud Storage.",
+                "Developed a multi-threaded batch process that sent up to 2M emails daily (initiated by users inviting friends) and managed processes to ensure delivery/measure efficacy.",
+                "Integrated Live Gamer’s Elements platform APIs to enable the launch of the Radius Coins virtual currency in 3-weeks."
+            ],
+            "stack" : "Jetty, Spring, Dojo, YUI, ActiveMQ, ejabberd, Pidgin Plugin "
+        },
+        {
+            "employer" : "Lehman Brothers",
+            "city" : "New York",
+            "state" : "NY",
+            "startDate" : "2004",
+            "endDate" : "2006",
+            "role" : "Integrations Architect",
+            "summary" : "Managed the delivery of 75 critical system integrations as part of a $29M global initiative to streamline the firm’s requisition, procurement and fixed-asset management processes.  Coordinated global architecture and development processes for 400+ person Finance & Operations Technology Group saving 100s of man-hours on various projects by sharing components and knowledge.",
+            "achievements" : [
+                "Managed an $800K budget and eight person development and testing team delivering a data-warehouse and analytics platform that enabled the business units to identify opportunities to reduce capital spending.",
+                "Oversaw a global development team with 14 resources in 4 locations that delivered a global PeopleSoft ERP system.",
+                "Defined a scalable architecture that enabled 75 different application integrations using JMS and RV messaging, SOAP services, TIBCO BusinessWorks, Informatica ETL and PeopleSoft integration technologies.",
+                "Instituted project polices that reduced risks associated with large packaged software implementations.",
+                "Proactively worked with security and audit groups to ensure compliance with industry standards like Sarbanes-Oxley."
+            ],
+            "stack" : "Tibco BusinessWorks, Informatica, Java, Peoplesoft"
+        },
+        {
+            "employer" : "Accenture",
+            "city" : "New York",
+            "state" : "NY",
+            "startDate" : "1998",
+            "endDate" : "2004",
+            "role" : "Manager - Technology Service Line, Financial Services Industry",
+            "summary" : "Promoted 3 times and assigned to 5 clients while working for this global management consulting, technology services, and outsourcing company.  Subject matter expert in Java Object-Oriented Architecture selected to participate in the steering committee for the firm’s Java frameworks, some of which evolved into the Spring Framework.",
+            "projects" : [
+                {
+                    "client" : "Morgan Stanley",
+                    "role" : "Technical Architect",
+                    "startDate" : "2003",
+                    "endDate" : "2004",
+                    "summary" : "Managed an onsite/offshore 18-person development team to successfully deliver the three-phase O2 security project.",
+                    "achievements" : [
+                        "Architected a robust and scalable Identity and Asset Management System using UML, J2EE and SOAP.",
+                        "Managed the development and delivery of a knowledge capital portal built using ASP.NET and Verity.",
+                        "Worked with the QA Manager and Business Analysts to facilitate successful System and User Acceptance Testing.",
+                        "Collaborated with Enterprise Application Owners to orchestrate integration of the new standardized entitlement system.",
+                        "Worked with centralized groups to improve the shared infrastructure for hosting applications in the firm."
+                    ]
+                },
+                {
+                    "client" : "Fidelity Investments",
+                    "role" : "Technical Architect",
+                    "startDate" : "2000",
+                    "endDate" : "2003",
+                    "summary" : "Held two different technical lead roles responsible for managing teams of 4 Developers. Designed and built service components for the Equity Order Management (OMT) System using Java, JRules, and TIBCO technologies. Led the technical evaluation effort to select a Compliance Management system.",
+                    "achievements" : [
+                        "Designed and built service components for the Equity Order Management System using Java, JRules, and TIBCO RV.",
+                        "Successfully delivered an operations console for the EOM system using Java, Servlets and XML.",
+                        "Managed a team of 4 developers through the design and build of a Compliance Reporting system on WebSphere.",
+                        "Created a performance-testing framework to produce comparable performance metrics for the different candidates."
+                    ]
+                }
+            ]
+        }
+    ],
+    "education" : [
+        {
+            "institution" : "State University of New York at Binghamton",
+            "degree" : "Bachelor of Science in Computer Science",
+            "school" : "Watson School of Engineering and Applied Science",
+            "degreeDate" : "1998"
+        }
+    ]
+}
