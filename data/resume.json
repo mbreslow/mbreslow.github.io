@@ -143,6 +143,13 @@
                         "Managed a team of 4 developers through the design and build of a Compliance Reporting system on WebSphere.",
                         "Created a performance-testing framework to produce comparable performance metrics for the different candidates."
                     ]
+                },
+                {
+                    "client" : "Sprint",
+                    "role" : "Lead Developer",
+                    "startDate" : "1998",
+                    "endDate" : "2000",
+                    "summary" : "Led a team of three Servlet developers through the detailed design, development and testing of a web based application used to manage user profiles. Developed Servlets that leveraged EJBs in WebLogic to store and retrieve user profile information. Introduced the novice development team to advanced Java and object-oriented concepts."
                 }
             ]
         }

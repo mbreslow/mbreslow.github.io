@@ -40,7 +40,12 @@
     {{#each projects}}
     <div class="row">
         <div class="large-12 columns">
-            <span class="client">{{client}},</span> <span class="clientRole">{{role}}</span>
+            <span class="client">{{client}},</span> <span class="clientRole">{{role}}</span> <span class="projectDates">({{startDate}} - {{endDate}})</span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="large-12 columns">
+            <span class="worksummary">{{summary}}</span>
         </div>
     </div>
     <div class="row">
