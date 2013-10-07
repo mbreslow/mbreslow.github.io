@@ -4,9 +4,8 @@ define([
   'backbone',
   'handlebars',
   'models/resume/ResumeModel',
-  'collections/resumes/ResumesCollection',
-  'text!templates/resume/resume-summary.hbs'
-], function($, _, Backbone, Handlebars, ResumeModel, ResumesCollection, resumeTemplate){
+  'text!templates/resume/resume.hbs'
+], function($, _, Backbone, Handlebars, ResumeModel, resumeTemplate){
 
   var ResumeView = Backbone.View.extend({
     el: $("#page"),
